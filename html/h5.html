@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--宽度等于屏幕宽度，初始缩放比例为1，用户禁止缩放，ios中网页加载时隐藏地址栏与导航栏-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimal-ui">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="../css/jquery.fullPage.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/parallax-animation.css">
+</head>
+<body>
+    <div id="music">
+        <img src="../img/music-bg.png" width="33" height="33" class="rotate2d" id="img" />
+        <div id="music-gif" class="music-gif"></div>
+        <audio id="myAudio" src="../audio/music.mp3" autoplay="autoplay"  loop>不支持audio</audio>
+    </div>
+    <div id="dowebok">
+        <div class="section">
+            <div class="head head-1"  style="animation: fadeInToBottom 2000ms ease 0ms both; display: block;">
+                <img src="../img/logo.png" data-src="../img/logo.png" width="205" height="108" style="animation: fadeInToBottom 1000ms ease 0ms both; display: block;" />
+            </div>
+            <div class="container">
+                <img src="../img/第一页_06.png" data-src="../img/第一页_06.png"   style="animation: slideToLeft 1000ms linear 0ms both; display: block;" />
+                <div class="container-p"  style="animation: fadeInToBottom 1000ms ease 0ms both; display: block;">
+                    <p>
+                        产业
+                    </p>
+                    <p>
+                        机芯
+                    </p>
+                    <p>
+                        方案
+                    </p>
+                </div>
+            </div>
+            <div class="footer"  style="animation: fadeInToBottom 2000ms ease 0ms both; display: block;">
+                <p>
+                    深圳虞康智能有限公司
+                </p>
+                <p>
+                    www.uikismart.cn
+                </p>
+            </div>
+            <div class="up"></div>
+        </div>
+        <div class="section">
+            <div class="head-2" data-animation="fadeInToBottom" data-dalay="500">
+                <p>
+                    UiKi Smart
+                </p>
+            </div>
+            <div class="container-2" data-animation="fadeInToBottom" data-duration="1200">
+                <ul>
+                    <li>价值观：灵动</li>
+                    <li>持续发展-</li>
+                    <li>意义深远-</li>
+                    <li>精准-</li>
+                    <li>责任-</li>
+                    <li>信任-</li>
+                </ul>
+                <ul>
+                    <li>(SMART)</li>
+                    <li>(Sustainable Development)</li>
+                    <li>(Meaningful)</li>
+                    <li>(Accurate)</li>
+                    <li>(Responsible)</li>
+                    <li>(Trust)</li>
+                </ul>
+            </div>
+            <div class="footer-2" data-animation="scaleOut" data-duration="1000">
+                <img data-src="../img/tu-.png" width="240" height="300" data-animation="scaleIn" data-duration="1000"  />
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+            <div class="head-3">
+                <p data-animation="fadeInToBottom">
+                    “专注智能机芯，服务数字健康”
+                </p>
+                <p data-animation="fadeInToBottom" data-delay="800">
+                    禀承独具匠 “芯” ，再创时尚与科技之美
+                </p>
+            </div>
+            <div class="container-3">
+                <img data-src="../img/第二页_03.png" width="285" height="180" class="container-3-img" data-animation="scalesmall" data-duration="1200" />
+                <img data-src="../img/第二页_001_03.png" width="207" height="207" class="container-3-img1" data-animation="bufferTop" data-duration="1500"/>
+            </div>
+            <div class="up"></div>
+        </div>
+    
+        <div class="section">
+            <div class="head-4">
+                <p data-animation="fadeInToTop" data-duration="2000">
+                    产业型解决方案
+                </p>
+                <p class="border" data-animation="slideToBottom" data-duration="2000"></p>
+            </div>
+            <div class="container-4">
+                <img data-src="../img/233_03.png" width="236" height="236" class="c-4-img1" data-animation="rotate" data-delay="500" data-duration="4000"/>
+                <img data-src="../img/第三页1_03.png" width="154" height="170" class="c-4-img2" data-animation="fadeIn" data-duration="800" />
+                <p class="c-4-top" data-animation="fadeInToRight" data-delay="1000" data-duration="3000">
+                    工业设计
+                </p>
+                <p class="c-4-right1" data-animation="fadeInToLeft" data-delay="1000" data-duration="3000">
+                    供应整合
+                </p>
+                <p class="c-4-right2" data-animation="fadeInToLeft" data-delay="1000" data-duration="3000">
+                    品牌调性
+                </p>
+                <p class="c-4-bottom" data-animation="fadeInToLeft" data-delay="800" data-duration="2500">
+                    数据服务
+                </p>
+                <p class="c-4-left1" data-animation="fadeInToLeft" data-delay="500" data-duration="2000">
+                    人机交互
+                </p>
+                <p class="c-4-left2" data-animation="fadeInToRight" data-delay="500" data-duration="2000">
+                    机芯模组
+                </p>
+            </div>
+            <div class="up"></div>
+        </div>
+        <div class="section">
+            <div class="head-5" data-animation="slideToRight">
+                <p>
+                    功能
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-5">
+                <div class="c-1">
+                    <p>
+                        <img data-src="../img/校时.png" width="34" height="34" data-animation="fadeIn" data-duration="800" />
+                        <span class="line" data-animation="width" data-delay="800" data-duration="500"></span>
+                        <span data-animation="fadeInToRight" data-duration="800">
+                            智能校时
+                        </span>
+                    </p>
+                </div>
+                <div class="c-2">
+                    <p>
+                        <img data-src="../img/心率.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="1000"/>
+                        <span class="line" data-animation="width" data-duration="800" data-delay="1000"></span>
+                        <span data-animation="fadeInToLeft" data-duration="800" data-delay="1000">
+                        动态心率
+                    </span>
+                    </p>
+                </div>
+                <div class="c-3">
+                    <p>
+                        <img data-src="../img/计步.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="1500" />
+                        <span class="line2" data-animation="width" data-duration="800" data-delay="1500"></span>
+                        <span data-animation="fadeInToRight" data-duration="800" data-delay="1500">
+                            活动追踪
+                        </span>
+                    </p>
+                </div>
+                <div class="c-4">
+                    <p>
+                        <img data-src="../img/睡眠.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="2000" />
+                        <span class="line2" data-animation="width" data-duration="800" data-delay="2000"></span>
+                        <span data-animation="fadeInToLeft" data-duration="800" data-delay="2000">
+                            睡眠监测
+                        </span>
+                    </p>
+                </div>
+                <div class="c-5">
+                    <p>
+                        <img data-src="../img/来电.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="2500" />
+                        <span class="line" data-animation="width" data-duration="800" data-delay="2500"></span>
+                        <span data-animation="fadeInToRight" data-duration="800" data-delay="2500">
+                            来电提醒
+                        </span>
+                    </p>
+                </div>
+                <div class="c-6">
+                    <p>
+                        <img data-src="../img/相机.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="3000" />
+                        <span class="line" data-animation="width" data-duration="800" data-delay="3000"></span>
+                        <span data-animation="fadeInToLeft" data-duration="800" data-delay="3000">
+                            遥控拍照
+                        </span>
+                    </p>
+                </div>
+                <div class="c-7">
+                    <p>
+                        <img data-src="../img/电池.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="3500" />
+                        <span class="line2" data-animation="width" data-duration="800" data-delay="3500"></span>
+                        <span data-animation="fadeInToRight" data-duration="800" data-delay="3500">
+                            超长待机
+                        </span>
+                    </p>
+                </div>
+                <div class="c-8">
+                    <p>
+                        <img data-src="../img/免密支付.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="4000"/>
+                        <span class="line2" data-animation="width" data-duration="800" data-delay="4000"></span>
+                        <span data-animation="fadeInToLeft" data-duration="800" data-delay="4000">
+                            免密支付
+                        </span>
+                    </p>
+                </div>
+                <div class="c-9">
+                    <p>
+                        <img data-src="../img/数据.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="4500" />
+                        <span class="line" data-animation="width" data-duration="800" data-delay="4500"></span>
+                        <span data-animation="fadeInToRight" data-duration="800" data-delay="4500">
+                            数据分析
+                        </span>
+                    </p>
+                </div>
+                <div class="c-10">
+                    <p>
+                        <img data-src="../img/气压.png" width="34" height="34" data-animation="fadeIn" data-duration="800" data-delay="5000" />
+                        <span data-animation="fadeInToLeft" data-duration="800" data-delay="5000">
+                            气压感应
+                        </span>
+                    </p>
+                </div>
+                <div class="circle" data-animation="fadeIn" data-delay="5500">
+                    更多功能持续精彩...
+                </div>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-6" data-animation="slideToBottom">
+                <p>
+                    POP-S3
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="square" data-animation="square" data-duration="1000"></div>
+            <div class="container-img">
+                <img data-src="../img/sport-cd_03.png" data-animation="scale-rotate" data-duration="2000" />
+                <p data-animation="fadeIn" data-delay="500">
+                    机芯尺寸：29.5x29.5x5.45mm
+                </p>
+                <p data-animation="fadeIn" data-delay="500">
+                    电池型号：CR2325
+                </p>
+            </div>
+            <div class="container-6 common">
+                <img data-src="../img/虞康智能-爆炸-CD.png" width="153" height="317" data-animation="scalesmall" data-duration="800" data-delay="500"/>
+                <ul>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯面壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1500">
+                        <span></span>
+                        <span></span>
+                        <span>小秒针齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2000">
+                        <span></span>
+                        <span></span>
+                        <span>时针齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2500">
+                        <span></span>
+                        <span></span>
+                        <span>震动马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3000">
+                        <span></span>
+                        <span></span>
+                        <span>PCBA</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3500">
+                        <span></span>
+                        <span></span>
+                        <span>微动开关</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4000">
+                        <span></span>
+                        <span></span>
+                        <span>MCU</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4500">
+                        <span></span>
+                        <span></span>
+                        <span>机身标</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5000">
+                        <span></span>
+                        <span></span>
+                        <span>固定弹片</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5500">
+                        <span></span>
+                        <span></span>
+                        <span>正级弹片</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯后壳</span>
+                    </li>
+                    <li data-animation="fadeIn">机芯爆炸图</li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-7" data-animation="slideToBottom">
+                <p>
+                    POP-S3 成表示例
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-7">
+                <div class="out-img">
+                    <img data-src="../img/s3/1-1.png" width="191" height="328" class="out" data-animation="fadeOutToLeft" data-duration="4000" data-delay="1000"/>
+                    <img data-src="../img/s3/1-2.png" width="191" height="328" class="out" data-animation="fadeOutToLeft" data-duration="4000" data-delay="3000"/>
+                    <img data-src="../img/s3/1-4.png" width="191" height="328" class="out" data-animation="fadeInToLeft" data-duration="1000" data-delay="7000"/>
+                    <img data-src="../img/s3/1-3.png" width="191" height="328" class="out" data-animation="fadeOutToRight"  data-duration="4000" data-delay="5000"/>
+                    <div class="in-img">
+                        <img data-src="../img/s3/2.png" width="163" height="163" class="in" data-animation="fadeOutToLeft" data-duration="4000" data-delay="2000" />
+                        <img data-src="../img/s3/3.png" width="163" height="163" class="in" data-animation="fadeOutToRight" data-duration="4000" data-delay="4000" />
+                        <img data-src="../img/s3/4.png" width="163" height="163" class="in" data-animation="fadeInToRight" data-duration="1000" data-delay="6000"/>
+                        <img data-src="../img/s3/1.png" width="163" height="163" class="in" data-animation="fadeOutToRight" data-duration="4000" data-delay="1000"/>
+                    </div>
+                </div>
+            </div>
+            <div class="functions-7 functions" data-animation="fadeInToBottom" data-delay="500">
+                <img src="../img/组-17.png" />
+                <ul>
+                    <li>智能校时</li>
+                    <li>活动追踪</li>
+                    <li>睡眠监测</li>
+                    <li>来电提醒</li>
+                    <li>遥控拍照</li>
+                    <li>超长待机</li>
+                    <li>.<br>.<br>.</li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+              <div class="head-10" data-animation="fadeInToBottom">
+                <p>
+                    HR-R6
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="square" data-animation="square" data-duration="1000"></div>
+            <div class="container-10-img">
+                <img data-src="../img/sport-hr_03.png" width="174" height="174" data-animation="scale-rotate" />
+                <p data-animation="fadeIn" data-delay="500">
+                    机芯尺寸：37x37x7.15(8.95-充电电极凸台高)mm
+                </p>
+                <p data-animation="fadeIn" data-delay="500">
+                    参数显示：LED屏
+                </p>
+            </div>
+            <div class="container-10 common">
+                <img data-src="../img/虞康智能-HR机芯爆炸0405.png" width="153" height="317" data-animation="scalesmall" data-duration="1000" data-delay="1000" />
+                <ul>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯面壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1000">
+                        <span></span>
+                        <span></span>
+                        <span>OLED</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1500">
+                        <span></span>
+                        <span></span>
+                        <span>I型金属齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2000">
+                        <span></span>
+                        <span></span>
+                        <span>V型金属齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2500">
+                        <span></span>
+                        <span></span>
+                        <span>震动马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3000">
+                        <span></span>
+                        <span></span>
+                        <span>微动开关</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3500">
+                        <span></span>
+                        <span></span>
+                        <span>MCU</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4000">
+                        <span></span>
+                        <span></span>
+                        <span>PCBA</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4500">
+                        <span></span>
+                        <span></span>
+                        <span>可充电锂离子电池</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5000">
+                        <span></span>
+                        <span></span>
+                        <span>PPG传感器&FPC</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5500">
+                        <span></span>
+                        <span></span>
+                        <span>定位磁铁</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6000">
+                        <span></span>
+                        <span></span>
+                        <span>镀金充电电极</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6500">
+                        <span></span>
+                        <span></span>
+                        <span>PPG透明盖板</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="7000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯后壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom">
+                        机芯爆炸图
+                    </li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-11" data-animation="slideToBottom">
+                <p>
+                    HR-R6 成表示例
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-11">
+                <div class="out-img">
+                    <img data-src="../img/r6/1-3.png" width="216" height="350" data-animation="fadeOutToRight" data-duration="4000" data-delay="5000" />
+                    <img data-src="../img/r6/1-1.png" width="216" height="350" data-animation="fadeOutToLeft" data-duration="4000" data-delay="1000" />
+                    <img data-src="../img/r6/1-2.png" width="216" height="350" data-animation="fadeOutToLeft" data-duration="4000" data-delay="3000" />
+                    <img data-src="../img/r6/1-4.png" width="216" height="350" data-animation="fadeInToLeft" data-duration="1000" data-delay="7000" />
+                    <div class="in-img">
+                        <img data-src="../img/r6/r6-1.png" width="177" height="172" data-animation="fadeOutToRight" data-duration="4000" data-delay="1000" />
+                        <img data-src="../img/r6/r6-2.png" width="177" height="172" data-animation="fadeOutToLeft" data-duration="4000" data-delay="2000" />
+                        <img data-src="../img/r6/r6-3.png" width="177" height="172" data-animation="fadeOutToRight" data-duration="4000" data-delay="4000" />
+                        <img data-src="../img/r6/r6-4.png" width="177" height="172" data-animation="fadeInToRight" data-duration="1000" data-delay="6000" />
+                    </div>
+                </div>
+            </div>
+            <div class="functions functions-11" data-animation="fadeInToBottom" data-delay="500">
+                <img src="../img/组-17.png" />
+                <ul>
+                    <li>免密支付</li>
+                    <li>来电显示</li>
+                    <li>动态心率</li>
+                    <li>智能校时</li>
+                    <li>活动追踪</li>
+                    <li>睡眠监测</li>
+                    <li>.<br>.<br>.</li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+            <div class="head-8" data-animation="fadeInToBottom">
+                <p>
+                    STEEL-I3
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-8-bg">
+                <img data-src="../img/sport-POP2111_02.png" class="bg" data-animation="buffer" data-duration="1000" />
+            </div>
+            <div class="container-8-img">
+                <img data-src="../img/sport-POP_03.png" width="157" height="157"  data-animation="scale-rotate" />
+                <p data-animation="fadeIn" data-delay="500">
+                    机芯尺寸：35x35x7.55(9.15-充电电极凸台高)mm
+                </p>
+                <p data-animation="fadeIn" data-delay="500">
+                    功能表盘：可分别为4.5H,6H,7.5H位
+                </p>
+            </div>
+            <div class="container-8 common">
+                <img data-src="../img/虞康智能-pop机芯0405.png" width="153" height="317" data-animation="scalesmall" data-duration="1000" data-delay="1000" />
+                <ul>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯面壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1500">
+                        <span></span>
+                        <span></span>
+                        <span>小秒针齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2000">
+                        <span></span>
+                        <span></span>
+                        <span>时针齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2500">
+                        <span></span>
+                        <span></span>
+                        <span>震动马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3000">
+                        <span></span>
+                        <span></span>
+                        <span>微动开关</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3500">
+                        <span></span>
+                        <span></span>
+                        <span>MCU</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4000">
+                        <span></span>
+                        <span></span>
+                        <span>PCBA</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4500">
+                        <span></span>
+                        <span></span>
+                        <span>可充电锂离子电池</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5000">
+                        <span></span>
+                        <span></span>
+                        <span>电极FPC</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5500">
+                        <span></span>
+                        <span></span>
+                        <span>定位磁铁</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6000">
+                        <span></span>
+                        <span></span>
+                        <span>镀金充电电极</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6500">
+                        <span></span>
+                        <span></span>
+                        <span>机芯后壳</span>
+                    </li>
+                    <li data-animation="fadeIn">
+                        机芯爆炸图
+                    </li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+            <div class="head-9" data-animation="slideToBottom">
+                <p>
+                    STEEL-I3 成表示例
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-9">
+                <div class="out-img">
+                    <img data-src="../img/i3/1-1.png" width="190" height="340" data-animation="fadeOutToLeft" data-duration="4000" data-delay="1000" />
+                    <img data-src="../img/i3/2-2.png" width="190" height="340" data-animation="fadeOutToLeft" data-duration="4000" data-delay="2000" />
+                    <img data-src="../img/i3/3-3.png" width="190" height="340" data-animation="fadeOutToRight" data-duration="4000" data-delay="4000"/>
+                    <img data-src="../img/i3/4-4.png" width="190" height="340" data-animation="fadeInToRight" data-duration="1000" data-delay="6000"/>
+                    <div class="in-img">
+                        <img data-src="../img/i3/1.png" width="162" height="158" data-animation="fadeOutToRight" data-duration="4000" data-delay="1000" class="img-left-1" />
+                        <img data-src="../img/i3/2.png" width="162" height="158"  data-animation="fadeOutToRight" data-duration="4000" data-delay="3000" class="img-left-2" />
+                        <img data-src="../img/i3/3.png" width="162" height="158" data-animation="fadeOutToRight" data-duration="4000" data-delay="5000" class="img-left-3" />
+                        <img data-src="../img/i3/4.png" width="162" height="158" data-animation="fadeInToRight" data-duration="1000" data-delay="7000" class="img-left-3" />
+                    </div>
+                </div>
+            </div>
+            <div class="functions functions-9" data-animation="fadeInToBottom" data-delay="500">
+                <img src="../img/组-17.png" />
+                <ul>
+                    <li>联动显示</li>
+                    <li>Q<br>C快充</li>
+                    <li>智能校时</li>
+                    <li>活动追踪</li>
+                    <li>睡眠监测</li>
+                    <li>遥控拍照</li>
+                    <li>.<br>.<br>.</li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-12" data-animation="fadeInToBottom">
+                <p>
+                    STEEL-I6
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-12-img">
+                <img data-src="../img/sport-steel_03.png" width="171" height="171" data-animation="scale-rotate" />
+                <p data-animation="fadeIn" data-delay="500">
+                    机芯尺寸：35x35x7.55(9.15-充电电极凸台高)mm
+                </p>
+                <p data-animation="fadeIn" data-delay="500">
+                    功能表盘：可以分别为4.5H,6H,7.5H位
+                </p>
+            </div>
+            <div class="container-8-bg">
+                <img data-src="../img/sport-steel123_01.png" class="bg" data-animation="buffer" data-duration="1000" />
+            </div>
+            <div class="container-12 common">
+                <img data-src="../img/虞康智能-steel机芯爆炸0405.png" width="153" height="317" data-animation="scalesmall" data-duration="1000" data-delay="1000" />
+                <ul>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1000">
+                        <span></span>
+                        <span></span>
+                        <span>机芯面壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="1500">
+                        <span></span>
+                        <span></span>
+                        <span>I型金属齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2000">
+                        <span></span>
+                        <span></span>
+                        <span>V型金属齿轮箱&步进马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="2500">
+                        <span></span>
+                        <span></span>
+                        <span>震动马达</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3000">
+                        <span></span>
+                        <span></span>
+                        <span>MCU</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="3500">
+                        <span></span>
+                        <span></span>
+                        <span>微动开关</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4000">
+                        <span></span>
+                        <span></span>
+                        <span>PCBA</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="4500">
+                        <span></span>
+                        <span></span>
+                        <span>可充电锂离子电池</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5000">
+                        <span></span>
+                        <span></span>
+                        <span>PPG传感器&FPC</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="5500">
+                        <span></span>
+                        <span></span>
+                        <span>定位磁铁</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6000">
+                        <span></span>
+                        <span></span>
+                        <span>镀金充电电极</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-duration="800" data-delay="6500">
+                        <span></span>
+                        <span></span>
+                        <span>机芯后壳</span>
+                    </li>
+                    <li data-animation="fadeInToBottom">
+                        机芯爆炸图
+                    </li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-13" data-animation="fadeInToBottom">
+                <p>
+                    STEEL-I6 成表示例
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-13">
+                <div class="out-img">
+                    <img data-src="../img/steel/steel1_03.png" width="220" height="388" style="top:25px" data-animation="fadeOutToLeft" data-duration="4000" data-delay="1000" />
+                    <img data-src="../img/steel/steel2_03.png" width="220" height="388" data-animation="fadeOutToLeft" data-duration="4000" data-delay="3000" />
+                    <img data-src="../img/steel/steel3_03.png" width="220" height="388" data-animation="fadeOutToLeft" data-duration="4000" data-delay="5000" />
+                    <img data-src="../img/steel/steel4_03.png" width="220" height="388" style="top:25px" data-animation="fadeInToLeft" data-duration="1000" data-delay="7000" />
+                    <div class="in-img">
+                        <img data-src="../img/steel/steel11_03.png" width="200" height="200" data-animation="fadeOutToRight" data-duration="4000" data-delay="1000" />
+                        <img data-src="../img/steel/steel12_03.png" width="200" height="200" data-animation="fadeOutToRight" data-duration="4000" data-delay="2000" />
+                        <img data-src="../img/steel/steel13_03.png" width="200" height="200" data-animation="fadeOutToRight" data-duration="4000" data-delay="4000" />
+                        <img data-src="../img/steel/steel14_03.png" width="200" height="200" data-animation="fadeInToRight" data-duration="1000" data-delay="8000" />
+                        <img data-src="../img/steel/steel15_03.png" width="200" height="200" data-animation="fadeOutToRight" data-duration="4000" data-delay="6000" />
+                    </div>
+                </div>
+                <p data-animation="fadeInToRight" data-delay="1000">
+                    LOGO
+                </p>
+            </div>
+            <div class="functions functions-13" data-animation="fadeInToBottom" data-delay="500">
+                <img src="../img/组-17.png" />
+                <ul>
+                    <li>智能校时</li>
+                    <li>Q<br>C充电</li>
+                    <li>动态心率</li>
+                    <li>摇控拍照</li>
+                    <li>来电提醒</li>
+                    <li>睡眠监测</li>
+                    <li>.<br>.<br>.</li>
+                </ul>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-14">
+                <p data-animation="fadeInToBottom">
+                    随"芯"，传统爱上智能
+                </p>
+                <p data-animation="fadeInToBottom" data-delay="800">
+                    见证历史，把握未来，数百年手表历史进入智能时代
+                </p>
+                <p data-animation="fadeInToBottom" data-delay="1200">
+                    这一刻，为传统手表注入科技的力量，为机械注入人文与关怀！
+                </p>
+            </div>
+            <div class="c-14-img">
+                <img data-src="../img/第三页1_03.png" width="204" height="220" data-animation="scale-rotate" />
+            </div>
+            <div class="c-14-footer">
+                <img data-src="../img/安卓系统.png" width="246" height="142" data-animation="scalesmall" data-duration="800" />
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    轻智能·轻奢范
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    适配ios/android
+                </p>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+            <img data-src="../img/4.gif" id="gif" />
+            <div class="container-15 clear-container-15" data-animation="">
+                <img data-src="../img/11.png" data-animation="fadeInToLeft" />
+                <img data-src="../img/18.png" data-animation="fadeInToLeft" data-delay="800" />
+                <img data-src="../img/41.png" data-animation="fadeInToLeft" data-delay="1500" />
+                <img data-src="../img/14.png" data-animation="fadeInToLeft" data-delay="2300" />
+                <p data-animation="fadeInToLeft" data-delay="3200">
+                    <span data-animation="scalesmall" data-delay="4200">
+                        APP界面
+                    </span>
+                </p>
+            </div>
+            <div class="container-15-other" data-animation="fadeIn" data-delay="7500">
+                <img data-src="../img/1.jpg" width="245" height="410" data-animation="" />
+                <p data-animation="fadeInToLeft" data-delay="3200">
+                    APP可定制
+                </p>
+            </div>
+            <div class="opacity"></div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-16">
+                <p data-animation="fadeInToBottom">
+                    智能与传统火花碰撞
+                </p>
+                <p data-animation="fadeInToBottom" data-delay="800">
+                    手表可以连接蓝牙 用APP控制"传统"手表
+                </p>
+            </div>
+            <div class="container-16">
+                <img data-src="../img/手机.png" data-animation="fadeInToRight" />
+                <img data-src="../img/白1_03.png" data-animation="fadeInToLeft"  />
+                <img data-src="../img/黄标_03.png" width="121" height="207" data-animation="fadeInToLeft"/>
+                <img data-src="../img/组-17.png"  data-animation="fadeInToRight" data-delay="800"/>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    智能校对
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    运动追踪
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    睡眠监测
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    震动提醒
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    来电提醒
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    遥控拍照
+                </p>
+                <p data-animation="fadeInToLeft" data-delay="800">
+                    超长待机
+                </p>
+            </div>
+            <div class="c-16-footer" data-animation="fadeInToBottom" data-delay="1000">
+                <p>
+                    存量与增量市场整合
+                </p>
+            </div>
+            <div class="up"></div>
+        </div>
+        <div class="section">
+              <div class="head-17" data-animation="slideToBottom">
+                <p>
+                    我们的优势
+                </p>
+                <p class="border"></p>
+            </div>
+            <div class="container-17">
+                <ul data-animation="fadeIn" data-delay="800">
+                    <li data-animation="fadeInToBottom">
+                        <span></span>
+                        <span>看得见与看不见的内外兼修</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-delay="800">
+                        <span></span>
+                        <span>尖端的团队，助推产业升级</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-delay="1200">
+                        <span></span>
+                        <span>未来精彩，等你发现</span>
+                    </li>
+                    <li data-animation="fadeInToBottom" data-delay="1600">
+                        <span></span>
+                        <span>让科技更好的服务于社会</span>
+                    </li>
+                </ul>
+                <img data-src="../img/23254.png" data-animation="scale-shake" />
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+             <div class="head-18" data-animation="slideToBottom">
+                <p>
+                    联系我们
+                </p>
+            </div>
+            <div class="container-18" data-animation="fadeInToBottom">
+                <div>
+                    <a href="tel:0755-26609462#mp.weixin.qq.com" id="tel">
+                        <p>
+                            0755-26609462
+                        </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="map.html" target="_parent">
+                        <p>
+                            深圳市南山区南海大道3025号创意大厦1105室
+                        </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://www.uikismart.cn" target="_parent">
+                        <p>
+                            www.uikismart.cn
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="up"></div>
+        </div>
+
+        <div class="section">
+            <div class="head-18" data-animation="slideToBottom">
+                <p>
+                    关注我们
+                </p>
+            </div>
+            <div class="container-19">
+                <img data-src="../img/微信_07.png" width="209" height="209" data-animation="buffer" data-duration="1000"/>
+            </div>
+            <div class="c-19-footer" data-animation="bufferTop" data-duration="1000">
+                <p>
+                    <img src="../img/scan.gif" width="100px" height="100px" />
+                </p>
+                <p>
+                    关注微信公众号
+                </p>
+            </div>
+            <div class="up"></div>
+        </div>
+    </div>
+
+   <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery.fullPage.js"></script>
+<script src="../js/music.js"></script>
+
+
+</body>
+</html>
